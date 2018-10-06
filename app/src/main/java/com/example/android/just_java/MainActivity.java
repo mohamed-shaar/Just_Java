@@ -33,5 +33,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void function(View v)
+    {
+        EditText editText = findViewById(R.id.edittext);
+        String x = editText.getText().toString();
+        TextView textView = findViewById(R.id.textview);
+        textView.setText(x);
+
+
+    }
+
+
+
 
 }
